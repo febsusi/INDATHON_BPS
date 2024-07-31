@@ -6,7 +6,7 @@ Nama : Febriyeni Susi
 
 Satuan Kerja : BPS Provinsi Maluku (Kabupaten Buru)
 
-Data yang digunakan adalah :
+* Penggunaan Data:
 1. Penumpang MRT
 2. Penumpang LRT
 3. Armada Transjakarta
@@ -17,6 +17,8 @@ Data yang digunakan adalah :
 8. Curah Hujan
 9. Lags, Triwulan, Bulan, Tahun
 
-Pembagian Data Training dan Testing adalah
+* Pembagian Data Training dan Testing
+
 train = df.loc[df.index < '31-01-2023']
+
 test = df.loc[df.index >= '31-01-2023']
