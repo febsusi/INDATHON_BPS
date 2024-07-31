@@ -3,6 +3,7 @@
 # Identitas Diri
 
 Nama : Febriyeni Susi
+
 Satuan Kerja : BPS Provinsi Maluku (Kabupaten Buru)
 
 Data yang digunakan adalah :
@@ -15,3 +16,7 @@ Data yang digunakan adalah :
 7. Jumlah Penumpang Keberangkatan Pesawat Luar Negeri
 8. Curah Hujan
 9. Lags, Triwulan, Bulan, Tahun
+
+Pembagian Data Training dan Testing adalah
+train = df.loc[df.index < '31-01-2023']
+test = df.loc[df.index >= '31-01-2023']
