@@ -22,6 +22,15 @@ xgb.XGBRegressor()
 
 Python and Jupyter Notebook
 
+library and package :
+pandas == 2.1.4
+numpy == 1.26.4
+matplotlib == 3.7.2
+seaborn == 0.13.0
+datetime == 5.0
+sklearn
+xgboost == 2.0.2
+
 # Pembagian Data Training dan Testing
 
 train = df.loc[df.index < '31-01-2023']
