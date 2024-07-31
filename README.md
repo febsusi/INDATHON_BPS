@@ -37,3 +37,8 @@ library and package :
 train = df.loc[df.index < '31-01-2023']
 
 test = df.loc[df.index >= '31-01-2023']
+
+# Rata-Rata Execution Time
+CPU Time 500mcs
+Wall Time 97ms
+
